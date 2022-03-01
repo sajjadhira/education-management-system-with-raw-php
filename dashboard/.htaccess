@@ -1,0 +1,91 @@
+# Sajjad Hossain
+# CEO & Founder, DevsBangla
+# https://devsbangla.com
+
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www.\sajjad\.info [NC]
+#RewriteRule ^(.*)$ https://sajjad.info/$1 [L,R=301]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} 
+
+
+#RewriteBase /
+Options +FollowSymLinks
+
+
+DirectoryIndex index.php
+
+###########Short Links###########
+
+#Notice
+RewriteRule ^add-notice/?$ notice.php?action=add-notice [NC,L]
+RewriteRule ^manage-notice/([A-Za-z0-9-]+)/?$ notice.php?action=manage-notice&page=$1 [QSA,NC,L] 
+RewriteRule ^manage-notice/?$ notice.php?action=manage-notice [L]
+#Class
+RewriteRule ^manage-class/?$ class.php?action=manage-class [L]
+RewriteRule ^add-class/?$ class.php?action=add-class [NC,L]
+#Section
+RewriteRule ^manage-section/?$ section.php?action=manage-section [L]
+RewriteRule ^add-section/?$ section.php?action=add-section [NC,L]
+#Subject
+RewriteRule ^manage-subject/?$ subject.php?action=manage-subject [L]
+RewriteRule ^add-subject/?$ subject.php?action=add-subject [NC,L]
+#Student
+RewriteRule ^admit-student/?$ student.php?action=admit-student [NC,L]
+RewriteRule ^manage-student/class-([A-Za-z0-9-]+)/page-([A-Za-z0-9-]+)/?$ student.php?action=manage-student&class=$1&page=$2 [QSA,NC,L]
+RewriteRule ^manage-student/class-([A-Za-z0-9-]+)/?$ student.php?action=manage-student&class=$1 [QSA,NC,L]
+RewriteRule ^manage-student/?$ student.php?action=manage-student [L]
+#Teacher
+RewriteRule ^add-teacher/?$ teacher.php?action=add-teacher [NC,L]
+RewriteRule ^manage-teacher/([A-Za-z0-9-]+)/?$ teacher.php?action=manage-teacher&page=$1 [QSA,NC,L] 
+RewriteRule ^manage-teacher/?$ teacher.php?action=manage-teacher [L]
+#Parent
+RewriteRule ^add-parent/?$ parent.php?action=add-parent [NC,L]
+RewriteRule ^manage-parent/page-([A-Za-z0-9-]+)/?$ parent.php?action=manage-parent&page=$1 [QSA,NC,L]
+RewriteRule ^manage-parent/?$ parent.php?action=manage-parent [L]
+#Attendence
+RewriteRule ^attendence/section-([A-Za-z0-9-]+)/manage/([0-9-]+)/?$ attendence.php?action=manage&section=$1&date=$2 [QSA,NC,L]
+
+RewriteRule ^attendence/individual/([A-Za-z0-9-]+)/report/([0-9-]+)/?$ attendence.php?action=individual&user=$1&date=$2 [QSA,NC,L]
+
+RewriteRule ^attendence/section-([A-Za-z0-9-]+)/report/([0-9-]+)/?$ attendence.php?action=report&section=$1&date=$2 [QSA,NC,L]
+
+RewriteRule ^manage-attendence/class-([A-Za-z0-9-]+)/?$ attendence.php?action=manage-attendence&class=$1 [QSA,NC,L]
+RewriteRule ^manage-attendence/?$ attendence.php?action=manage-attendence [QSA,NC,L]
+
+RewriteRule ^teacher-attendence/?$ attendence.php?action=teacher-attendence [QSA,NC,L]
+
+RewriteRule ^attendence/teacher/manage/([0-9-]+)/?$ attendence.php?action=teacher&date=$1 [QSA,NC,L]
+
+RewriteRule ^attendence-report/?$ attendence.php?action=attendence-report [L]
+
+#Routine
+
+RewriteRule ^add-routine/?$ routine.php?action=add-routine [L]
+RewriteRule ^view-routine/?$ routine.php?action=view-routine [QSA,NC,L]
+RewriteRule ^routine/view/class-([A-Za-z0-9-]+)/section-([A-Za-z0-9-]+)/?$ routine.php?action=view&class=$1&section=$2 [QSA,NC,L]
+
+#Settings
+RewriteRule ^general-settings/?$ settings.php?action=general [L]
+RewriteRule ^sms-settings/?$ settings.php?action=sms [L]
+RewriteRule ^alert-settings/?$ settings.php?action=alert [L]
+RewriteRule ^styles-settings/?$ settings.php?action=styles [L]
+
+#SMS
+RewriteRule ^bulk-sms/?$ sms.php?action=bulk [L]
+RewriteRule ^individual-sms/?$ sms.php?action=individual [L]
+
+#Gallery
+RewriteRule ^add-gallery-photo/?$ gallery.php?action=add [L]
+RewriteRule ^gallery/?$ gallery.php?action=gallery [L]
+
+#Exam
+RewriteRule ^exam-type-list/?$ exam.php?action=type-list [L]
+RewriteRule ^add-exam-type/?$ exam.php?action=add-type [L]
+RewriteRule ^add-exam/?$ exam.php?action=add-exam [L]
+
+#Admission
+RewriteRule ^admission-requests/?$ admission.php?action=requests [L]
+RewriteRule ^manage-admission-request/request/([A-Za-z0-9-]+)/?$ admission.php?action=request&id=$1 [QSA,NC,L]

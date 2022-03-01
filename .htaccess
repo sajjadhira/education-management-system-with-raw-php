@@ -1,0 +1,35 @@
+# Sajjad Hossain Hira
+# Developer Of phpAns
+# facebook.com/sajjadhossainhira
+
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www.\sajjad\.info [NC]
+#RewriteRule ^(.*)$ https://sajjad.info/$1 [L,R=301]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} 
+
+
+#RewriteBase /
+Options +FollowSymLinks
+
+
+DirectoryIndex index.php
+
+#ShortURL
+
+RewriteRule ^online-admission/?$ online-admission.php [NC,L]
+RewriteRule ^online-admission-result/?$ online-admission.php?action=result [NC,L]
+RewriteRule ^login/?$ login.php [NC,L]
+RewriteRule ^logout/?$ login.php?action=logout [NC,L]
+RewriteRule ^contact-us/?$ inquery.php [NC,L]
+RewriteRule ^captcha\.png/?$ captcha.php [L]
+RewriteRule ^dmca/?$ inquery.php?action=dmca [NC,L]
+
+
+
+
+RewriteRule ^sitemap.xml$ inquery.php?action=sitemap [NC,L]
+RewriteRule ^rss.xml$ inquery.php?action=rss [NC,L]
+

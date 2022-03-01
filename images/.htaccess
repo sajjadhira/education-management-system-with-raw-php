@@ -1,0 +1,11 @@
+# Sajjad Hossain Hira
+# Developer Of phpAns
+# facebook.com/sajjadhossainhira
+
+RewriteEngine On
+
+#RewriteBase /
+Options +FollowSymLinks
+
+
+DirectoryIndex index.php
