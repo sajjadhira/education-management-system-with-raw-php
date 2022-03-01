@@ -505,7 +505,7 @@ INSERT INTO `iskul_settings` (`id`, `name`, `value`) VALUES
 (7, 'installed', '2017-01-27 09:12:29'),
 (8, 'address', '80 Senbari Road, Mymensingh'),
 (9, 'phonenumber', '+8801811525626'),
-(10, 'email', 'admin@devsbangla.com'),
+(10, 'email', 'admin@phpans.com'),
 (11, 'paypal_email', 'sajjad.hira12@gmail.com'),
 (12, 'currency', 'BDT'),
 (13, 'sms_service', '1'),

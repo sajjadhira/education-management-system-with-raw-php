@@ -1,12 +1,12 @@
 <?php
 /**
- * @name			DevsBangla E-Commerce
+ * @name			Education Managemnet System
  * @category		E-Commerce
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/e-commerce/
+ * @Author URL		https://phpans.com
+ 
 **/
 
 if (class_exists('modules')){ 

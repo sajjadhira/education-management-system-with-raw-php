@@ -1,11 +1,11 @@
 <?php
 /**
- * @name			DevsBangla Binodon
+ * @name			Education Managemnet System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @link			https://devsbangla.com
+ * @link			https://phpans.com
 **/
 
 /**
@@ -19,7 +19,7 @@ define('DATABASE_CHARSET', 'utf8');
 define('DATABASE_COLLATE', '');
 define('LICENCE_KEY', 'licence_key_here');
 define('PROJECT_VERSION', '1.0.0');
-$table_prefix  = 'devsbangla_';
+$table_prefix  = 'phpans_';
 if ( !defined('ROOT_DIR') )
 	define('ROOT_DIR', dirname(__FILE__) . '/');
 

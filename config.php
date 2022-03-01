@@ -1,11 +1,11 @@
 <?php
 /**
- * @name			DevsBangla Binodon
+ * @name			Education Managemnet System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @link			https://devsbangla.com
+ * @link			https://phpans.com
 **/
 
 /**

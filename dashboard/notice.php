@@ -2,11 +2,11 @@
 /**
  * @name			Iskul - Education Management System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/eskul/
+ * @Author URL		https://phpans.com
+ * @Theme URL		https://phpans.com/demo/eskul/
 **/
 if (!file_exists("../config.php"))
 {
@@ -233,7 +233,7 @@ default:
                   </div>
                   </div>
 				  <div class="form-group">
-                  <div id="devsbanglaEditor"></div>
+                  <div id="phpansEditor"></div>
                   </div>
 				   <div class="form-group">
                     <label class="control-label col-md-6 col-sm-6 col-xs-12">Image <span class="badge">.jpg</span><span class="badge">.png</span><span class="badge">.gif</span><span class="badge">.jpeg</span></label>
@@ -508,9 +508,9 @@ $text = str_replace('\n','<br>',$text);
                   </div>
                   </div>
 				  <div class="form-group">
-                  <!-- DevsBangla Editor -->
+                  <!-- phpans Editor -->
 				  <div class="md-editor active" id="editor"><div class="md-header btn-toolbar"><div class="btn-group"><button class="btn-default btn-sm btn" type="button" title="Bold" tabindex="-1" id="centerText"><span class="fa fa-align-center"></span> </button><button class="btn-default btn-sm btn" type="button" title="Bold" tabindex="-1" id="boldText"><span class="fa fa-bold"></span> </button><button class="btn-default btn-sm btn" type="button" title="Italic" tabindex="-1" id="italicText"><span class="fa fa-italic"></span> </button><button class="btn-default btn-sm btn" type="button" title="Heading" tabindex="-1" id="h2Text"><span class="fa fa-header"></span> </button></div><div class="btn-group"><button class="btn-default btn-sm btn" type="button" title="URL/Link" tabindex="-1" id="urlText"><span class="fa fa-link"></span> </button><button class="btn-default btn-sm btn" type="button" title="External URL/Link" tabindex="-1" id="externalurlText"><span class="fa fa-external-link"></span> </button><button class="btn-default btn-sm btn" type="button" title="Image" tabindex="-1" id="imageText"><span class="fa fa-image"></span> </button><button class="btn-default btn-sm btn" type="button" title="Youtube" tabindex="-1" id="youtubeembedText"><span class="fa fa-youtube"></span> </button></div><div class="btn-group"><button class="btn-default btn-sm btn" type="button" title="Unordered List" tabindex="-1" id="ulText"><span class="fa fa-list"></span> </button><button class="btn-default btn-sm btn" type="button" title="Ordered List" tabindex="-1" id="liText"><span class="fa fa-list-ol"></span> </button><button class="btn-default btn-sm btn" type="button" title="Table" tabindex="-1" id="tableText"><span class="fa fa-table"></span> </button><button class="btn-default btn-sm btn" type="button" title="Table TR" tabindex="-1" id="trText"><span class="fa fa-columns"></span> </button><button class="btn-default btn-sm btn" type="button" title="Table TD" tabindex="-1" id="tdText"><span class="fa fa-bars"></span> </button><button class="btn-default btn-sm btn" type="button" title="Code" tabindex="-1" id="codeText"><span class="fa fa-code"></span> </button><button class="btn-default btn-sm btn" type="button" title="Quote" tabindex="-1" id="blockquoteText"><span class="fa fa-quote-left"></span> </button></div><div class="btn-group"><button class="btn-sm btn btn-primary" type="button" title="Preview" tabindex="-1" id="EditorPreview" title="Editor Preview"><span class="fa fa-search"></span> Preview</button></div><div class="btn-group"><button class="btn-default btn-sm btn open-modal" type="button" title="Help" tabindex="-1"id="helpEditor"><span class="fa fa-question-circle"></span> </button><button class="btn-default btn-sm btn" type="button" title="Clear" tabindex="-1"id="clear_autosave"><span class="fa fa-minus-circle"></span> </button></div><div class="md-controls"><a class="md-control md-control-fullscreen" href="#"><span class="fa fa-expand"></span></a></div></div><textarea name="message" id="inputMessage" rows="12" class="form-control"><?php echo $text; ?></textarea><div id="preview"></div><div id="helpText"></div><div class="md-footer EditorFooter"><div id="inputMessage-footer" class="markdown-editor-status"><div class="small-font">characters: <span id="totalChars">0</span>&nbsp;&nbsp;&nbsp;words: <span id="wordCount">0</span>&nbsp;&nbsp;&nbsp;<span id="save_msg">saved</span></div></div></div></div>
-                  <!-- DevsBangla Editor -->
+                  <!-- phpans Editor -->
                   </div>
 				   <div class="form-group">
                     <label class="control-label col-md-6 col-sm-6 col-xs-12">Image <span class="badge">.jpg</span><span class="badge">.png</span><span class="badge">.gif</span><span class="badge">.jpeg</span></label>

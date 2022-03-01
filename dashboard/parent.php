@@ -2,11 +2,11 @@
 /**
  * @name			Iskul - Education Management System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/iskul/
+ * @Author URL		https://phpans.com
+ * @Theme URL		https://phpans.com/demo/iskul/
 **/
 if (!file_exists("../config.php"))
 {

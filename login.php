@@ -1,12 +1,12 @@
 <?php
 /**
- * @name			DevsBangla Education
- * @category		E-Commerce
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @name			Education Managemnet System
+ * @category		Framework
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/e-commerce/
+ * @Author URL		https://phpans.com
+ 
 **/
 if (!file_exists(__DIR__ . "/config.php"))
 {

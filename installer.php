@@ -1,12 +1,12 @@
 <?php
 /**
- * @name			DevsBangla Education
+ * @name			Education Managemnet System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/e-commerce/
+ * @Author URL		https://phpans.com
+ 
 **/
 header("Content-type: text/html; charset=UTF-8");
 header("Cache-Control: no-cache, must-revalidate");
@@ -18,7 +18,7 @@ define('ROOT_DIR', dirname(__FILE__) . '/');
 define('CONFIG_FILE','config.php');
 define('CONFIG_SAMPLE','config-sample.php');
 define('PROJECT_NAME','Iskul');
-define('PROJECT_AUTHOR','DevsBangla');
+define('PROJECT_AUTHOR','phpans');
 require_once( ROOT_DIR . "functions/basic.functions.php");
 ?>
 
@@ -272,7 +272,7 @@ default:
 			    			<input class="form-control" placeholder="Database Host" name="host" type="text" value="localhost" required>
 			    		</div>
 			    		<div class="form-group">
-			    			<input class="form-control" placeholder="Table Prefix" name="prefix" type="text" value="devsbangla_" required>
+			    			<input class="form-control" placeholder="Table Prefix" name="prefix" type="text" value="phpans_" required>
 			    		</div>
 			    		<div class="form-group">
 			    			<input class="form-control" placeholder="Licence Key" name="licence" type="text" value="" required>

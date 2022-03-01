@@ -1,12 +1,12 @@
 <?php
 /**
- * @name			DevsBangla Education
+ * @name			Education Managemnet System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/e-commerce/
+ * @Author URL		https://phpans.com
+ 
 **/
 if (!file_exists(__DIR__ . "/config.php"))
 {
@@ -24,7 +24,7 @@ define('ROOT_DIR', dirname(__FILE__) . '/');
 define('CONFIG_FILE','config.php');
 require_once(__DIR__ . "/config.php");
 define('PROJECT_NAME','Iskul');
-define('PROJECT_AUTHOR','DevsBangla');
+define('PROJECT_AUTHOR','phpans');
 require_once( ROOT_DIR . "functions/static.class.php");
 require_once( ROOT_DIR . "functions/dynamic.class.php");
 require_once( ROOT_DIR . "functions/basic.functions.php");

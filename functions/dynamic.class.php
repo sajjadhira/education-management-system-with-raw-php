@@ -1,12 +1,12 @@
 <?php
 /**
- * @name			DevsBangla Education
+ * @name			Education Managemnet System
  * @category		Framework
- * @author			DevsBangla.
- * @copyright		DevsBangla.
+ * @author			phpans.
+ * @copyright		phpans.
  * @version			1.0.0
- * @Author URL		https://devsbangla.com
- * @Theme URL		https://devsbangla.com/demo/education/
+ * @Author URL		https://phpans.com
+ * @Theme URL		https://phpans.com/demo/education/
 **/
 
 require_once( ROOT_DIR . "libs/MySQLi.php");
